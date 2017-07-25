@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,div,span,a,ul,li,ol,dl,dt,dd,p,h1,h2,h3,h4,h5,h6,input,button{
+	padding:0;
+	margin:0;
+}
+
+li{
+	list-style:none;
+}
+body{
+		font-family:微软雅黑;
+		
+	}
+/* 版心 */
+.main{
+	width:1000px;
+	margin:0 auto;
+	position:relative;	
+}
+/* 清楚浮动 */
+.clearfix:after{
+	content:"";
+	clear:both;
+	display:block;
+}
+
+.clearfix{
+	zoom:1;
+}
+/*导航栏开始*/
+.top{
+	height:100px;
+	background-color: rgba(255, 255, 255, 0.30);
+	line-height:100px;
+}
+.top .logo{
+	float:left;
+	margin-top:10px;
+}
+.top img{
+	width:350px;
+	height:42px;
+}
+.top .nav{
+	float:right;
+}
+.top .nav li{
+	float:left;
+	font-size:24px;
+	margin-right:40px;
+}
+.top .nav a{
+	color:#333;
+	text-decoration:none;
+}
+.top .nav a:hover{
+	color: #55acee;
+}
+/*导航栏结束*/
+/*第一屏开始*/
+.No1{
+	height:950px;
+	background:url(../../../sourcetreeWeb/www.zebao_v.1.0/images/banner.jpg) no-repeat center center;
+	}
+/*第一屏结束*/
+/*第二屏开始*/
+.No2{
+	height:950px;
+	background:blue;
+	}
+/*第二屏结束*/
